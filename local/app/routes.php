@@ -14,6 +14,7 @@ use \Infrastructure\Constants;
 //Login Controller Routes
 
 /* RB Region Start */
+Route::get('/',array('uses' => 'SecurityController@getLogin'));
 Route::get('unauthorize', array('uses' => 'SecurityController@getunauthorized'));
 Route::get('login',array('uses' => 'SecurityController@getLogin'));
 Route::post('authenticate', array('uses' => 'SecurityController@postAuthenticate'));
