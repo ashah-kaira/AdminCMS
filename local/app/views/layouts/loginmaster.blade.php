@@ -101,7 +101,7 @@ use Infrastructure\Constants; // For get value of Pagination PageSize and set pe
 <script src="<?php echo asset('/assets/js/angularjs/spin.js');?>"></script>
 
 <!-- End Angular -->
-<script src="<?php echo asset('/assets/js/bootstrapdialogjs/bootstrap-dialog.js');?>"></script>
+<script src="<?php echo asset('/assets/js/BootstrapDialogJs/bootstrap-dialog.js');?>"></script>
 <script src="<?php echo asset('/assets/js/common.js');?>"></script>
 
 <script type="text/javascript">
