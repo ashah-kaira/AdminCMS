@@ -1,0 +1,112 @@
+/* RB Region Start */
+.error-text-color{color: red;}
+
+.form-control.has-error,.form-control.ng-invalid.has-submitted,.login .content .form-control.ng-invalid.has-submitted{
+    border: 1px solid red ;
+}
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+    display: none !important;
+}
+/* RB Region End */
+
+
+/*  Ayushi Region Start */
+.page-sidebar .sidebar-search .input-group .form-control, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .form-control
+{
+    color: #d9d9d9;
+}
+
+/*Loader Style*/
+body.loading .windowloader  {
+    display: block;
+}
+
+.windowloader {
+    display: none;
+    position: fixed;
+    z-index: 1020;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.loaderimage {
+    display: none;
+}
+
+body.loading .windowloader .loaderimage {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 35%;
+    left: 45%;
+    height: 64px;
+    width: 64px;
+    background: url('../images/ajax-loader.gif') 50% 50% no-repeat;
+    /*border: 2px solid #E48600;*/
+}
+/*Content Loader */
+.addcontentloader .contentloader  {
+    display: block;
+}
+
+.contentloader {
+    display: none;
+    position: fixed;
+    z-index: 1020;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.contentloaderimage {
+    display: none;
+}
+
+.addcontentloader .contentloader .contentloaderimage {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 35%;
+    left: 45%;
+    height: 64px;
+    width: 64px;
+    background: url('../images/ajax-loader.gif') 50% 50% no-repeat;
+    /* border: 2px solid #E48600;*/
+}
+/*Loader Style*/
+.anchor_color
+{
+    color: #333333;
+    text-decoration: none;
+}
+.anchor_color:hover
+{
+    color: #333333;
+    text-decoration: none;
+}
+/*  Ayushi Region End */
+
+
+/*start Dev_VA*/
+/*For Sorting*/
+/*For show image when i click on asc or desc order*/
+.sortorder
+{
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.sortorder:before
+{
+    content: '\f077';
+}
+
+.sortorder.reverse:before
+{
+    content: '\f078';
+}
+/*End Dev_VA*/
