@@ -55,10 +55,10 @@ return array(
 
        'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => '192.168.1.163',//'http://localhost/',
-            'database'  => 'woodbridge',//'muladb_04212015',
-            'username'  => 'root',
-            'password'  => '',
+            'host'      => 'localhost',//'http://localhost/',
+            'database'  => 'forge',//'muladb_04212015',
+            'username'  => 'forge',
+            'password'  => 'PgYmDSeS2vs5DJO2tKpz',
 			'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
