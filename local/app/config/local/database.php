@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			 'host'      => 'localhost',//'http://localhost/',
+			 'host'      => '52.23.183.73',//'http://localhost/',
             'database'  => 'forge',//'muladb_04212015',
 			'username'  => 'forge',
-			'password'  => 'PgYmDSeS2vs5DJO2tKpz',
+			'password'  => 'CTQMJDMlq14G57xsDmgf',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
